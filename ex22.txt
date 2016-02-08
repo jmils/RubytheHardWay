@@ -1,0 +1,50 @@
+puts :method short for "put string". Displays results of code to the console and adds a newline after.
+print :method also used to display the results of code to the console but does NOT add a newline.
+# :pound symbol. Octothorpe. Used to add comments to Ruby code and tells the console to ignore anything following #.
+#{} :Used to insert a variable in a string. Variable goes in between parenthesis.
+%{} :Also used to insert variables in a string. Used to apply the same format to multiple values.
++ :plus sign. Adds
+- :minus sign. Subtracts.
+/ :slash. Divides.
+* :asterisk. Multiplies.
+% :Percent. Takes the remainder of the division of two numbers.
+< :Less than. Checks if value is less than another value.
+> :Greater than. Checks if value is greater than another value.
+<= :Less than or equal. Checks if value is less than or equal to another value.
+>= :Greater than or equal. Checks if value is greater than or equal to another value.
++= :shorthand for x = x + y.
+-= :shorthand for x = x - y.
+= :equal sign. Used to define a variable.
+"" :double quotes. Used to make a string. String goes between the quotes.
+'' :single quotes Also used to make a string but any variables inside the string (#{}) Ruby will ignore.
+_ :underscore. Used in in place of a space when defining names of variables and functions.
+""" :Allows you to type multiple lines in a string. Must end with """.
+false :boolean value.
+true :boolean value.
+\ :backslash. Used to encode "difficult" characters into a string so Ruby doesn't get confused and will print the "tricky" character in the string. Aka "escape sequence".
+\n :escape newline. Inserts a newline in the console.
+\t :escape tab. Inserts 5 spaces.
+\\ :escape backslash. Inserts a backslash.
+\' :escape single quote. Inserts a single quote.
+\" :escape double quote. Inserts a double quote.
+gets :method that creates a newline and "gets" user input (as a string).
+gets.chomp :method that gets user input but does NOT create a newline.
+to_i :to integer. Returns the result as an integer (whole number)
+to_f :to float.  Returns the result as a floating point number aka a decimal number.
+ARGV :argument variable. Holds the arguments you pass to your Ruby script when you run it. Arguments are what you pass in Terminal when you call a ruby script.
+a, b, c = ARGV :format to pass multiple arguments to ARGV
+ARGV.first :used to only get 1 argument.
+$stdin :takes input to the console.
+open("yourfilename.txt"m "mode") :method that opens a file specified in the parenthesis. First parameter is the file name you want to open and the second is the mode you want the file in when you open it.
+read :method that reads all the files contents. You can assign the result to a variable. ex: contents = file.read
+close :method that closes the file.
+readline :method reads just one line of a text file.
+truncate :method that empties the file.
+write("") :method that writes whatever string is in parenthesis into the file.
+lengh :method that returns the number of elements
+File.exist?() :method that tells you whether the file or variable in the parenthesis exists.
+def :used to create a function. Must complete the function with 'end'
+end :used to end a function.
+seek() :method that moves the file pointer to a given integer (in the parenthesis) location of the file.
+return :method that tells Ruby to return the value of a function
+<<END :called a "heredoc". Used to create a multi-line string. Starts with >> and then a word in all caps. Must end with that same word in all caps though. Make sure it doesn't match a word in your string.
